@@ -1,7 +1,7 @@
 class ContentsController < ApplicationController
 
   def index
-    @contents = current_user.contents.order("created_at DESC")  #content全て表示する
+    @contents = Content.all
     @content = Content.new  #form forのため@contentの中身を無くす
   end
   
@@ -10,7 +10,6 @@ class ContentsController < ApplicationController
 
   def create
     @content = Content.create(content_params) #privateのparamsに飛ばす
-
     if @content.save
       respond_to do |format|
         format.html
@@ -19,7 +18,6 @@ class ContentsController < ApplicationController
 
     else
     end
-
   end
 
   def show

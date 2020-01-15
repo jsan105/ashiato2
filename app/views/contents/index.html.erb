@@ -10,8 +10,6 @@
           <div class="slider__item">
             <%= image_tag "umi2.jpg", class:"slider__item__image", size:"1240x450" %>
           </div>
-          
-
         </div>
       </div>
 
@@ -20,13 +18,13 @@
       <div class="under-content">
         <div class="contents">
           <% @contents.each do |content| %>
-            <%=link_to content_path(content.id),class:"show-content" do%>
+            <%=link_to content_path(content.id),class:"show-content" do %>
               <div class="show-content">
-                <div class="content__title" >
+                 <div class="content__title" >
                   <%= content.title %>
                 </div>
                 <div class="content__image">
-                  <%= image_tag content.image.url, size:"290x190"%>
+                  <%# <%= image_tag content.image.url, size:"290x190"  %> %>
                 </div>
               </div>
             <% end %>
