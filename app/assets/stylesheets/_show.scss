@@ -52,6 +52,9 @@
 
 .show-image{
   margin-top: 40px;
+  img{
+    border-radius: 10px;
+  }
 }
 
 
@@ -77,7 +80,7 @@
 
 .show-box{
   display: flex;
-  height: 100px;
+  height: 80px;
   width: 100%;
   margin-top: 100px;
   
@@ -86,7 +89,7 @@
     background-image: image-url('tag.png');
     width: 185px;
     height: 50px;
-    margin-right: 30px;
+    margin-left: 25px;
     text-align: center;
     line-height: 50px;
     text-decoration: none;
@@ -100,6 +103,9 @@
 
 .show-toppage{
   margin-bottom: 30px;
+  margin-right: 55px;
+  text-align: right;
+  
   a{
     color:#e70606;
     text-decoration: none;

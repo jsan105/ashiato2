@@ -1,7 +1,7 @@
 class ContentsController < ApplicationController
 
   def index
-    @contents = Content.all
+    @contents = current_user.contents.order("created_at DESC")  #content全て表示する
     @content = Content.new  #form forのため@contentの中身を無くす
   end
   
@@ -20,6 +20,7 @@ class ContentsController < ApplicationController
     end
   end
 
+
   def show
     @content = Content.find(params[:id])
   end
@@ -28,6 +29,7 @@ class ContentsController < ApplicationController
   def edit
     @content = Content.find(params[:id])
   end
+
 
   def update
     content = Content.find(params[:id])

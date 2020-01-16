@@ -21,21 +21,23 @@
               ["鹿児島"],["沖縄"]], 行き先：class: 'edit-prefectues', include_blank: "都道府県 選択" %>
             </div>
             <%= f.text_field :title, class: 'edit-title', placeholder: 'タイトル' %> 
-              <%= f.label :image, class: 'content-image' do %>
+              <%= f.label :image, class: 'edit-image' do %>
                 <i class="fas fa-image icon"></i>
                 <%= f.file_field :image, class: 'file' %>
-              <%= image_tag @content.image.url, size:"460x294"%> 
+              <%= image_tag @content.image.url, class:"edit-image__originally", size:"260x165"%> 
+              <div class="arrow">↓</div>
+              <img id="preview", size="230x147">
             <% end %>
           </div>
 
           <div class="edit-right">
-            <%= f.text_area :text, class: 'content-text', placeholder: '思い出を書き残そう！！' %>
+            <%= f.text_area :text, class: 'edit-text', placeholder: '思い出を書き残そう！！' %>
             <% link_to  content_path(@content.id), class:"edit-box" %>
               <%= f.submit '保存する',class: 'content-submit' %>
+            <div class="edit-toppage"> 
+              <%= link_to 'トップページに戻る', "/" %>
             </div>
-            <%# <div class="edit-toppage"> 
-              <%# <%= link_to 'トップページに戻る', "/" %> 
-            <%# </div>   %>
+          </div>
         <% end %>
       </div> 
     </div>

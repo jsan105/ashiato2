@@ -1,0 +1,96 @@
+.edit_content{
+  display: flex;
+}
+
+.edit-created {
+  width: 50%;
+}
+
+.edit_prefectues{
+  margin-top: 10px;
+  select {
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+  }
+}
+
+.edit-title{
+  margin-top: 20px;
+  width: 465px;
+  height: 35px;
+  border-radius: 8px;
+  background-color: #FCFBF1;
+}
+
+.edit-image{
+  height: 50px;
+  width: 100px;
+  font-size: 55px;
+  color: #000066;
+  cursor: pointer;
+  display: inline-block;
+  
+  .file{
+    display: none;
+  }
+  &__originally{
+    border-radius: 10px;
+    margin-left: 110px;
+  }
+  
+
+}
+
+.arrow{
+  width: 465px;
+  text-align: center;
+}
+
+#preview {
+  height: 160px;
+  width: 260px;
+  margin-left: 110px;
+  border-radius: 10px;
+  img{
+    border-radius: 10px;
+  }
+}
+
+.edit-right{
+  width: 50%;
+  margin: 20px 20px 15px 41px;
+  overflow: hidden;
+}
+
+.edit-text{
+  height: 400px;
+  width: 465px;
+  margin-top: 15px;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: #FCFBF1;
+}
+
+.edit-box{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  
+}
+
+.edit-toppage{
+  margin-top: 50px;
+  text-align: right;
+
+  a{
+    color:#e70606;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: rgb(204, 151, 166);
+  }
+
+}
+
+

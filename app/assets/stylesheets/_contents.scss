@@ -50,6 +50,7 @@
         text-align: center;
         background: red;
         color: #fff;
+        border-radius: 10px;
       }
       &__logout{
         height: 30px;
@@ -60,6 +61,7 @@
         border: solid 1px black;
         cursor: pointer;
         background: red;
+        border-radius: 10px;
         a{
           text-decoration: none;
           color: #fff;
@@ -136,6 +138,11 @@
         .content__image{
           margin-left: 3px;
           height: 30px;
+          border-radius: 20px;
+
+          img{
+            border-radius: 20px;
+          }
         }
         .content__title{
           margin-top: 5px;

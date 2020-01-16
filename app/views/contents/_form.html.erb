@@ -2,13 +2,13 @@
 <div class="popup-overlay">
   <%# ポップアップ記述 open %>
   <div class="popup-content">
-  <button class= "close" > close </button>
+    <button class="close">✖︎</button> 
     <div class="form">
       <%= form_for @content do |f| %>
         <div class="content">
           <%= f.text_field :title, class: 'content-title', placeholder: 'タイトル' %>
           <div class="form-box">
-            <%= f.select :prefectues,  
+            <%= f.select :prefectues,
               [["北海道"],["青森"],["岩手"],["宮城"],["秋田"],
               ["山形"],["福島"],["茨城"],["栃木"],["群馬"],
               ["埼玉"],["千葉"],["東京"],["神奈川"],["新潟"],
