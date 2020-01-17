@@ -12,8 +12,8 @@
     position: fixed; //固定する
     top: 0;
     left: 0;
-
   }
+
   .popup-overlay.active{
     /*displays pop-up when "active" class is present*/
     visibility:visible;
@@ -42,7 +42,6 @@
     width: 33px;
     float: left;
     text-align: auto;
-    display:inline-block;
     vertical-align:middle;
     border-radius:40px;
     margin:.20rem;
@@ -135,5 +134,3 @@ select {
   color         : #000066;     /* 背景色     */
   background    : #ffffff;     /* 文字色     */
 }
-
-

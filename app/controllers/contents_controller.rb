@@ -17,6 +17,7 @@ class ContentsController < ApplicationController
       end
 
     else
+      alert('未入力の項目がございます');
     end
   end
 
