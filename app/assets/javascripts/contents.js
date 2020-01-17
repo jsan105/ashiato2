@@ -82,7 +82,7 @@ $(function() {   //html読みこんでから下の記述実行 必ず記述す�
                     ${content.title}
                   </div>
                   <div class="content__image" >
-                    <img src=${content.image}>
+                    <img src=${content.image} width="290" height="190">
                   </div>
                 </div> `
     $(".contents").prepend(html); //show-contentの親contentsクラス
@@ -111,7 +111,6 @@ $(function() {   //html読みこんでから下の記述実行 必ず記述す�
       $('.contents').animate({scrollLeft: 0 }, {duration: 4000}); //横スクロール、４秒かけて左端へスクロール
 
       // changeColor(content)
-      
       // return false;
     })
 
@@ -119,7 +118,6 @@ $(function() {   //html読みこんでから下の記述実行 必ず記述す�
       alert('未入力の項目がございます');
       $('.content-submit').prop('disabled' , false); //ボタン復活
     });
-
   })
 })
 
