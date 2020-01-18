@@ -1,24 +1,23 @@
 <body>
   <div class="wrapper">
-    <%= render  partial: "sidebar" %>
+    <%= render  partial: "sidebar" %> 
     <div class="main">
       <div class="upper-content">
         <div class="slider">
           <div class="slider__item">
-            <%= image_tag "umi1.jpg", class:"slider__item__image", size:"1240x450" %>
+            <%= image_tag "umi1.jpg", class:"slider__item__image", size:"1240x512" %>
           </div>
           <div class="slider__item">
-            <%= image_tag "umi2.jpg", class:"slider__item__image", size:"1240x450" %>
+            <%= image_tag "umi2.jpg", class:"slider__item__image", size:"1240x512" %>
           </div>
         </div>
       </div>
-
       <div class="under-content">
         <div class="contents">
           <% @contents.each do |content| %>
             <%=link_to content_path(content.id),class:"show-content" do %>
               <div class="show-content">
-                 <div class="content__title" >
+                  <div class="content__title" >
                   <%= content.title %>
                 </div>
                 <div class="content__image">

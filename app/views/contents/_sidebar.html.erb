@@ -6,34 +6,18 @@
     </div>
     <div class="user-box__action">
       <div class="user-box__action__post">投稿
-        <%= render partial: "form" %> 
       </div>
       <div class="user-box__action__logout">
+        <%= render partial: "form" %>
         <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
       </div>
     </div>
   </div>
-  <%# 履歴一覧 %>
   <div class="lists">
-    
     <div class="list">
       <h1>当サイトの目的</h1>
-
       <h2>ご自身の旅行の記録や</h2>
       <h2>日記としてご活用下さい</h2><br>
-
-      他人に見せる物でないので
-      思いをそのまま書き綴ってください！
-
-      
-
-      <%# <%= current_user.contents.each do |content| %> 
-         <%# <%= link_to content_path(content.id) do %>
-           <%# <div class="list__title">  %>
-            <%# <%= content.title %> 
-          <%# </div> %>
-        <%# <% end %> 
-      <%# <% end %> 
     </div>
   </div>
 </div>

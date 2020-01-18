@@ -44,12 +44,10 @@ class ContentsController < ApplicationController
   end
 
 
-
   private
     def content_params
       params.require(:content).permit(:title, :prefectues, :image, :text).merge(user_id: current_user.id)
     end
-
 
 
 end

@@ -8,7 +8,7 @@ $(function() {   //html読みこんでから下の記述実行 必ず記述す�
 
   // 投稿機能ポップアップ表示（閉じる）  できない!!
   // removes the "active" class to .popup and .popup-content when the "Close" button is clicked 
-  $(".close").on("click", function(){
+  $(".close, #close").on("click", function(){
     $(".popup-overlay, .popup-content").removeClass("active");
   });
 
