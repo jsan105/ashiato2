@@ -11,7 +11,7 @@
 
 ## DEMO
 
-![記事の投稿]("投稿gif.gif")
+![投稿gif](https://user-images.githubusercontent.com/57351081/72677497-6af8d880-3ae0-11ea-9572-728353977195.gif)
 
 ![記事の詳細画面](https://image-url.gif)
 # アプリの機能
