@@ -7,18 +7,9 @@
 
 ## DEMO
 
-![トップページ](https://image-url.gif) 
-
-![記事の投稿](https://image-url.gif)
-
-![記事の一覧表示](https://image-url.gif)
+![記事の投稿]("投稿gif.gif")
 
 ![記事の詳細画面](https://image-url.gif)
-
-![記事の編集](https://image-url.gif)
-
-![記事の削除](https://image-url.gif)
-
 # アプリの機能
  
  記事の投稿・一覧表示・詳細確認・編集・削除
@@ -45,9 +36,8 @@ $ ~do anything~
 1. herokuにてデプロイしました。
 
 # 作者
- 
 [@TanakanoAnchan](https://twitter.com/TanakanoAnchan)
-mail to: xxxx@mail.com
+
  
 # ライセンス
  
