@@ -30,14 +30,12 @@
 # アプリのインストール
  
 ```
-$ git clone https://github.com/TomoakiTANAKA/awesome-tool
-$ cd awesome-tool
-$ sh setup.sh
-$ ~do anything~
+$ git clone https://github.com/jsan105/ashiato2.git
 ```
 # デプロイ
  
 1. herokuにてデプロイしました。
+
 
 # 作者
 [@TanakanoAnchan](https://twitter.com/TanakanoAnchan)
