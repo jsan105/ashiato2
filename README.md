@@ -13,7 +13,7 @@
 
 ![投稿gif](https://user-images.githubusercontent.com/57351081/72677497-6af8d880-3ae0-11ea-9572-728353977195.gif)
 
-![記事の詳細画面](https://image-url.gif)
+![編集機能](https://user-images.githubusercontent.com/57351081/72677747-320e3300-3ae3-11ea-95e7-9b25e8f5919d.gif)
 # アプリの機能
  
  記事の投稿・一覧表示・詳細確認・編集・削除
