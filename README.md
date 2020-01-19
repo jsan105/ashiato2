@@ -35,17 +35,7 @@ $ git clone https://github.com/jsan105/ashiato2.git
 ```
 ## デプロイ
  
-1. herokuにてデプロイしました。
-
-
-## 作者
-[@TanakanoAnchan](https://twitter.com/TanakanoAnchan)
-
- 
-## ライセンス
- 
-[MIT](http://TomoakiTANAKA.mit-license.org)</blockquote>
-
+・herokuにてデプロイしました。
 
 
 
