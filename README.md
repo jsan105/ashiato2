@@ -1,6 +1,6 @@
 ## アプリ名：足あと
 
-![Uploading toppageスクショ.png…]()
+![toppageスクショ]("https://user-images.githubusercontent.com/57351081/72677306-3be16780-3ade-11ea-9534-75e6f0cd755d.png")
 
 # アプリの制作理由
 自分は旅行が趣味のため、旅行先での記録をまとめるアプリを作成しました。
