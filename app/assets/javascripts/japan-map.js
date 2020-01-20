@@ -1,4 +1,4 @@
-$(function() {   //html読みこんでから下の記述実行 必ず記述する
+// $(function() {   //html読みこんでから下の記述実行 必ず記述する
 
     //日本地図 
 
@@ -74,7 +74,9 @@ $(function() {   //html読みこんでから下の記述実行 必ず記述す�
     //   }
     // });
 
+  // changeColor(content)
+    // return false;
 
 
-});
+// });
 
