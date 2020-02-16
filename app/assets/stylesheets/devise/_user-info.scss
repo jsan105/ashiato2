@@ -1,0 +1,68 @@
+.user-info{
+  height: 100%;
+  width: 100%;
+  background-image: image-url('book.jpg');
+  background-size: cover; //描画範囲に合わせて画面全体を覆う
+}
+
+.user-info_form{
+  background:rgba(165, 127, 127, 0.5);
+  visibility:visible;
+  margin-top: 180px;
+  margin-left: 150px;
+  height: 490px;
+  width: 460px;
+  border-radius : 5%;
+}
+
+.user-info_form-box{
+  top: 20px;
+  margin-left: 10px;
+  height: 420px;
+  width: 380px;
+
+  h2 {
+    font-size: 30px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  label{
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  .user-info-text{
+    width: 300px;
+    height: 25px;
+  }
+  
+  input[type=checkbox]{
+    -ms-transform: scale(1.8);
+    -webkit-transform: scale(1.8);
+    transform: scale(1.8);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    vertical-align:middle;
+  }
+
+
+  input[type=submit]{
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: rgb(217, 215, 243);
+    border-radius : 5%;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover{
+    background-color: navy;
+    color:white;
+  }
+}

@@ -1,13 +1,15 @@
 @import "./reset";
-@import "contents";
-@import "form";
-@import "banner";
-@import "show";
 @import "font-awesome-sprockets";
 @import "./font-awesome";
-@import "destroy";
-@import "edit";
-@import "slick";
+@import "contents/contents";
+@import "contents/form";
+@import "contents/show";
+@import "contents/edit";
+@import "contents/destroy";
+@import "contents/slick";
+@import "devise/user-info";
+@import "devise/links";
+
 
 
 
