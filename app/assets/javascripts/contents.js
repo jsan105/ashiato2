@@ -1,5 +1,4 @@
 $(function() {   //html読みこんでから下の記述実行 必ず記述する
-
   // 非同期通信
   function buildMessage(content){
     var html = `<div class="show-content">
@@ -15,9 +14,11 @@ $(function() {   //html読みこんでから下の記述実行 必ず記述す�
     // .append 最後に非同期追加
   }
 
+
+
   $('#new_content').on(`submit`, function(e){
     e.preventDefault()
-    var formData = new FormData(this);
+    var formData = new FormData(this);a
     var url = $(this).attr(`action`);
 
     $.ajax({
