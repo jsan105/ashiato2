@@ -35,6 +35,7 @@
     display: none;
   }
   &__originally{
+    top: 100px;
     border-radius: 10px;
     margin-left: 110px;
   }
@@ -44,6 +45,9 @@
 
 .arrow{
   width: 465px;
+  height: 50px;
+  font-size: 40px;
+  line-height: 40px;
   text-align: center;
 }
 
